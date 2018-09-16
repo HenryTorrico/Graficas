@@ -1,5 +1,4 @@
 #include <cmath>
-#include "ColorRGB.h"
 class Vec
 {
     public:
