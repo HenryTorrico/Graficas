@@ -3,9 +3,11 @@
 class Vec
 {
     public:
-            
-            double x,y,z;
-            Vec(double x, double y, double z) : x(x), y(y), z(z) {}
-            Vec operator - (const Vec& v) const { return Vec(x-v.x, y-v.y, z-v.z); }
-
+    double x,y,z;
+    Vec(double x, double y, double z);
+    Vec operator + (const Vec& v) const; 
+    Vec operator - (const Vec& v) const; 
+    Vec operator * (double d) const; 
+    Vec operator / (double d) const; 
+    Vec normalize() const; 
 };

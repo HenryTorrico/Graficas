@@ -2,10 +2,10 @@
 class Esfera 
 {
     public:
-        Vec c; //centro
-        double r; //radio
-        Esfera(const Vec& c, double r) : c(c), r(r) {}
-        double dot(const Vec& a, const Vec& b){return (a.x*b.x + a.y*b.y + a.z*b.z);}
-        bool intersecta(const Ray& ray, double &t);
-    
+        Vec c;
+        double r;
+        Esfera(const Vec& ca, double rad): c(ca), r(rad) {};
+        Vec getNormal(const Vec& pi) const;
+        bool intersect(const Rayo& ray, double &t) const;
+   
 };

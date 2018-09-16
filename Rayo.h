@@ -1,9 +1,8 @@
 #include "Vec.h"
-class Ray
+class Rayo
 {
     public:
-        Vec o; //origen
-        Vec d; //destino
-        Ray(const Vec& o, const Vec& d) : o(o), d(d) {}
+        Vec o,d;
+        Rayo(const Vec& o, const Vec& d) : o(o), d(d) {}
 
 };
