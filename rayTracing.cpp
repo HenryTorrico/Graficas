@@ -15,9 +15,6 @@ int main()
     int thisone;
     ColorRGB* pixeles = new ColorRGB[n];
 
-    const Vec black(0, 0, 0);
-    const Vec red(255, 0, 0);
-
     const Esfera sphere(Vec(W*0.5, H*0.5, 50), 50);
   
     double t;
