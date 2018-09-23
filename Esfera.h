@@ -1,4 +1,5 @@
 #include "Punto.h"
+#include "Rayo.h"
 #ifndef ESFERA_H
 #define ESFERA_H
 class Esfera 
