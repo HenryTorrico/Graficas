@@ -1,6 +1,6 @@
 #ifndef PUNTO_H
 #define PUNTO_H
-#include "Vec.h"
+#include "Rayo.h"
 class Punto
 {
     public:

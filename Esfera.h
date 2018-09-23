@@ -1,12 +1,13 @@
-#include "Rayo.h"
 #include "Punto.h"
+#ifndef ESFERA_H
+#define ESFERA_H
 class Esfera 
 {
     public:
-        Vec c;
+        Punto c;
         double r;
-        Esfera(const Vec& ca, double rad): c(ca), r(rad) {};
-        Vec getNormal(const Vec& pi) const;
+        Esfera(const Punto& ca, double rad): c(ca), r(rad) {};
         bool intersect(const Rayo& ray, double &t) const;
    
 };
+#endif

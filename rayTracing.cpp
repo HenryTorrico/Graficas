@@ -12,7 +12,7 @@ int main()
     int thisone;
     ColorRGB* pixeles = new ColorRGB[n];
 
-    const Esfera sphere(Vec(W*0.5, H*0.5, 50), 50);
+    const Esfera sphere(Punto(W*0.5, H*0.5, 50), 50);
   
     double t;
     for(int x= 0; x < W; x++)

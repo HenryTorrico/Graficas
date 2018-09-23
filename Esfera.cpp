@@ -17,5 +17,3 @@ bool Esfera::intersect(const Rayo& ray, double &t)const {
     t = (t0 < t1) ? t0 : t1;
     return true;       
 }
-
-Vec Esfera::getNormal(const Vec& pi) const { return (pi - c) / r; }
