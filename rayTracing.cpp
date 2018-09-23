@@ -3,9 +3,6 @@
 #include "Utilitarios.h"
 #include "Esfera.h"
 using namespace std;
-inline double dot(const Vec& a, const Vec& b) {
-    return (a.x*b.x + a.y*b.y + a.z*b.z);
-}
 int main()
 {
     int dpi = 72;

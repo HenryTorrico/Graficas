@@ -1,4 +1,5 @@
 #include "Rayo.h"
+#include "Punto.h"
 class Esfera 
 {
     public:
